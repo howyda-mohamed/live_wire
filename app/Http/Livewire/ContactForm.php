@@ -4,9 +4,11 @@ namespace App\Http\Livewire;
 
 use App\Models\Contact;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class ContactForm extends Component
 {
+    use WithPagination;
     public $name;
     public $email;
     public $contacts;
