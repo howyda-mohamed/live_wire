@@ -17,7 +17,9 @@
     <livewire:contact-form />
 
     <livewire:search /> --}}
-    <livewire:comment />
+    {{-- <livewire:comment /> --}}
+
+    <livewire:polling />
 
     <livewire:scripts />
 
